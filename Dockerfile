@@ -4,4 +4,4 @@ WORKDIR /app
 
 COPY . .
 
-CMD ["python", "-m", "unittest", "discover"]
+CMD ["python", "-m", "unittest", "teste_busca.py"]
